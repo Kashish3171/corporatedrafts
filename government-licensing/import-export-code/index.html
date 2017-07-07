@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Coming Soon</title>
+	 <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://file.myfontastic.com/ttfHDvcZkwkELuDBjAqpHQ/icons.css" rel="stylesheet">
+<style>
+html,body{
+	height: 100%;width: 100%;
+}
+.ubody{
+background-image: url("comingsoon.jpg");width: 100%;background-repeat: no-repeat;background-size: cover;position: relative;float:none;text-align: center;height: 100%;padding-top: 170px;margin-top: -1.4em;background-position: center;
+	}
+
+	.ubodybtn{
+		width: 150px;position: static;
+	}
+	.ubodyspan{
+		font-size: 40px;color: white;font-style: italic;font-family: serif;position: static;	}
+		.ubody div{
+			background-color: rgba(5, 8, 8, 0.33);padding: 20px 0px;padding-bottom: 30px;
+		}
+		@media screen and (max-width: 767px){
+			.ubodyspan{
+				font-size: 24px;
+			}
+			.ubodybtn{
+		width: 100px;position: static;
+	}
+		}
+</style>
+</head>
+<body class="ubody">
+<div>
+    <span class="ubodyspan">Sorry,This Page is Currently Under Construction<br>This Page will be Available Soon...</span><br><br>
+	<button class="btn btn-danger ubodybtn">Back</button>
+</div>
+
+<script>
+		$('.ubodybtn').click(function(){
+  window.location.replace(document.referrer);
+});
+	</script>
+</body></html>
